@@ -690,7 +690,7 @@ contract Astroman is Context, IERC20, Ownable {
     string private _symbol = "ASTRO";
     uint8 private _decimals = 9;
     
-    uint256 public _burnFee = 5;
+    uint256 public _burnFee = 2;
     uint256 private _previousBurnFee = _burnFee;
     
     uint256 public _liquidityFee = 5;
